@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="balance check(failed)">
+    <classes>
+      <class name="Academy.NewCCGenerated">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.NewCCGenerated -->
+      <class name="Academy.CCBalance">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.CCBalance -->
+    </classes>
+  </test> <!-- balance check(failed) -->
+</suite> <!-- Failed suite [Suite] -->

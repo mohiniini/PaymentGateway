@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65405" started-at="2021-08-18T11:24:14Z" finished-at="2021-08-18T11:25:19Z">
+    <groups>
+    </groups>
+    <test name="Validating user login" duration-ms="17339" started-at="2021-08-18T11:24:14Z" finished-at="2021-08-18T11:24:31Z">
+      <class name="Academy.NewCCGenerated">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.NewCCGenerated@6b67034]" name="initialize" is-config="true" duration-ms="3523" started-at="2021-08-18T16:54:14Z" finished-at="2021-08-18T16:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.NewCCGenerated@6b67034]" name="basePageNavigation" duration-ms="13350" started-at="2021-08-18T16:54:18Z" finished-at="2021-08-18T16:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.NewCCGenerated@6b67034]" name="teardown" is-config="true" duration-ms="438" started-at="2021-08-18T16:54:31Z" finished-at="2021-08-18T16:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.NewCCGenerated -->
+    </test> <!-- Validating user login -->
+    <test name="balance check" duration-ms="17751" started-at="2021-08-18T11:24:32Z" finished-at="2021-08-18T11:24:50Z">
+      <class name="Academy.CCBalance">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.CCBalance@525b461a]" name="initialize" is-config="true" duration-ms="2174" started-at="2021-08-18T16:54:32Z" finished-at="2021-08-18T16:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.CCBalance@525b461a]" name="basePageNavigation" duration-ms="15324" started-at="2021-08-18T16:54:35Z" finished-at="2021-08-18T16:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.CCBalance@525b461a]" name="teardown" is-config="true" duration-ms="252" started-at="2021-08-18T16:54:50Z" finished-at="2021-08-18T16:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.CCBalance -->
+    </test> <!-- balance check -->
+    <test name="balance check enquiry" duration-ms="9957" started-at="2021-08-18T11:24:50Z" finished-at="2021-08-18T11:25:00Z">
+      <class name="Academy.CCBalanceValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.CCBalanceValidation@f0f2775]" name="initialize" is-config="true" duration-ms="2122" started-at="2021-08-18T16:54:50Z" finished-at="2021-08-18T16:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.CCBalanceValidation@f0f2775]" name="basePageNavigation" duration-ms="7428" started-at="2021-08-18T16:54:52Z" finished-at="2021-08-18T16:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.CCBalanceValidation@f0f2775]" name="teardown" is-config="true" duration-ms="405" started-at="2021-08-18T16:55:00Z" finished-at="2021-08-18T16:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.CCBalanceValidation -->
+    </test> <!-- balance check enquiry -->
+    <test name="valid card" duration-ms="19328" started-at="2021-08-18T11:25:00Z" finished-at="2021-08-18T11:25:19Z">
+      <class name="Academy.ValidCreditCard">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidCreditCard@58134517]" name="initialize" is-config="true" duration-ms="1987" started-at="2021-08-18T16:55:00Z" finished-at="2021-08-18T16:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.ValidCreditCard@58134517]" name="basePageNavigation" duration-ms="17130" started-at="2021-08-18T16:55:02Z" finished-at="2021-08-18T16:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidCreditCard@58134517]" name="teardown" is-config="true" duration-ms="210" started-at="2021-08-18T16:55:19Z" finished-at="2021-08-18T16:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidCreditCard -->
+    </test> <!-- valid card -->
+  </suite> <!-- Suite -->
+</testng-results>

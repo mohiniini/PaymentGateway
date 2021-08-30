@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="Academy.Listeners"/>
+</listeners>
+  <test name="Validating user login">
+    <classes>
+      <class name="Academy.NewCCGenerated"/>
+    </classes>
+   </test>
+   
+   <test name="balance check">
+    <classes>
+      <class name="Academy.CCBalance"/>
+    </classes>
+   </test>
+   
+   <test name="balance check enquiry">
+    <classes>
+      <class name="Academy.CCBalanceValidation"/>
+    </classes>
+   </test>
+   
+       <test name="valid card">
+    <classes>
+      <class name="Academy.ValidCreditCard"/>
+    </classes>
+   </test>
+
+   <!-- Test -->
+</suite> <!-- Suite -->
